@@ -1,0 +1,18 @@
+=> jsfiddle.net
+	- Sharing web code (HTML, CSS, Javascript)
+
+=> css-tricks.com
+	- Reference in css and html (Chris Coyier)
+
+=> codepen.io
+	- Solutions and examples in css, html and js
+
+=> w3c.org
+	- HTML5 standard documentation
+	- validator.w3c.org
+		# checks if site or html code is according to HTML5
+	- w3cschools.com/browsers/
+		# check browser usage statistics
+
+=> caniuse.com
+	- searches which browsers are compatible with specific features
