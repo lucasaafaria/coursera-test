@@ -63,7 +63,7 @@ p {
 @media (max-width: 767px) {
   .col-sm-12 {
     float: left;
-    margin-top: 1em;
+    margin-bottom: 1em;
   }
 }
 
@@ -78,7 +78,7 @@ p {
 
   .col-md-12 {
     width: 100%;
-    margin-top: 1.5em;
+    margin-top: 2.5em;
   }
 
   .col-md-12 section {
