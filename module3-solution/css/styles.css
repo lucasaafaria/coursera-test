@@ -1,0 +1,48 @@
+.navbar-dark {
+	background-color: #2677fd;
+}
+
+.navbar-dark .navbar-toggler {
+    color: #FFFFFF;
+    border-color: rgba(255,255,255,.5);
+}
+
+.h1 {
+	font-family: 'Lato', sans-serif;
+}
+
+h3 {
+	padding-top: 1.2rem;
+	padding-bottom: 0;
+	margin-bottom: 0;
+}
+
+section {
+	color: #FFFFFF;
+	background-color: #424249;
+}
+
+p {
+	color: rgba(255, 255, 255, .8);
+	padding: 1.5rem;
+}
+
+a {
+	color: #2677fd;
+}
+
+@media (max-width: 575.98px) {
+
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+	.invisible-sm {
+		visibility: hidden; !important;
+	}
+}
+
+@media (min-width: 768px) {
+	.invisible-md {
+		visibility: hidden; !important;
+	}
+}

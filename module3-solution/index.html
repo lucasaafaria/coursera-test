@@ -2,8 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -15,30 +14,62 @@
     <title>Module 3 Solution</title>
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/styles.css">
+
+    <link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet">
+
   </head>
 <body>
-  <nav class="navbar navbar-expand-xs navbar-dark bg-dark">
-    <a class="navbar-brand" href="#">Food, LLC</a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navigation" aria-controls="navigation" aria-expanded="false" aria-label="Toggle navigation">
+  <nav class="navbar navbar-dark">
+    <span class="navbar-brand mb-0 h1" >Food, LLC</span>
+    <button class="navbar-toggler invisible-sm invisible-md" type="button" data-toggle="collapse" data-target="#collapsible-nav" aria-controls="collapsible-nav" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
-
-    <div class="collapse navbar-collapse" id="navigation">
-      <ul class="navbar-nav ml-auto">
-        <li class="nav-item dropdown visible-xs">
-          <a class="nav-link dropdown-toggle" href="#" id="mobile-menu" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Dropdown</a>
-          <div class="dropdown-menu" aria-labelledby="mobile-menu">
-            <a class="dropdown-item" href="#">Chicken</a>
-            <a class="dropdown-item" href="#">Beef</a>
-            <a class="dropdown-item" href="#">Sushi</a>
-          </div>
-        </li>
+    <div class="collapse navbar-collapse" id="collapsible-nav">
+      <ul class="navbar-nav mr-auto text-center">
+        <li class="nav-item"><a class="nav-link" href="#chicken">Chicken</a></li>
+        <li class="nav-item"><a class="nav-link" href="#beef">Beef</a></li>
+        <li class="nav-item"><a class="nav-link" href="#sushi">Sushi</a></li>
       </ul>
     </div>
   </nav>
 
+  <h2 id="title" class="text-center mt-3 mb-3">Our Menu</h2>
+
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-xs-12 col-sm-6 col-md-4">
+        <section>
+          <div class="box" id="chicken">
+            <h3 class="text-center">Chicken</h3>
+          </div>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis luctus ipsum et massa blandit rhoncus. Etiam condimentum euismod lectus, vel imperdiet quam. Praesent lacinia luctus felis. In sed tortor suscipit, dapibus sem eu, suscipit tellus. Nunc sagittis leo vitae risus rhoncus luctus. Nulla pellentesque nibh urna, sed tristique neque sagittis eget. Duis odio est, bibendum ac erat at, fermentum consectetur lorem. Donec ornare fermentum pharetra. Praesent feugiat, ligula ac euismod ultricies, risus ipsum facilisis lacus, in malesuada orci tellus sit amet mauris. Vestibulum feugiat erat vitae erat scelerisque, suscipit consequat eros sodales. Praesent sed dui quis diam condimentum bibendum sed quis sem. Donec vel rhoncus sem, a tempor augue. Nunc a nibh vitae ex posuere sodales quis vitae metus. Quisque tincidunt varius quam, eu egestas erat. Suspendisse vitae ultricies enim. Nulla facilisi. Donec pellentesque turpis id velit molestie vehicula vitae ut nulla. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Sed urna ante, aliquet ac lobortis et, interdum non nunc. Nunc facilisis, tortor luctus consectetur fermentum, risus augue consectetur nulla, sit amet suscipit nisi nisl in odio. Aenean pretium iaculis mattis. Vestibulum accumsan tortor sem. Phasellus ac rutrum leo. Nunc accumsan diam at eros tempor pretium. In eu imperdiet sem. Fusce accumsan nisl eu vehicula lobortis. Ut in ultrices felis. Proin vulputate lorem sit amet hendrerit fringilla. Donec vitae augue pulvinar, sollicitudin nulla ac, consequat mi. Nulla vehicula quam ex, id malesuada sapien pulvinar non. Curabitur quis tincidunt diam. <span><a href="#title">Back to top.</a></span></p>
+        </section>
+      </div>
+
+      <div class="col-xs-12 col-sm-6 col-md-4">
+        <section>
+          <div class="box" id="beef">
+            <h3 class="text-center">Beef</h3>
+          </div>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis luctus ipsum et massa blandit rhoncus. Etiam condimentum euismod lectus, vel imperdiet quam. Praesent lacinia luctus felis. In sed tortor suscipit, dapibus sem eu, suscipit tellus. Nunc sagittis leo vitae risus rhoncus luctus. Nulla pellentesque nibh urna, sed tristique neque sagittis eget. Duis odio est, bibendum ac erat at, fermentum consectetur lorem. Donec ornare fermentum pharetra. Praesent feugiat, ligula ac euismod ultricies, risus ipsum facilisis lacus, in malesuada orci tellus sit amet mauris. Vestibulum feugiat erat vitae erat scelerisque, suscipit consequat eros sodales. Praesent sed dui quis diam condimentum bibendum sed quis sem. Donec vel rhoncus sem, a tempor augue. Nunc a nibh vitae ex posuere sodales quis vitae metus. Quisque tincidunt varius quam, eu egestas erat. Suspendisse vitae ultricies enim. Nulla facilisi. Donec pellentesque turpis id velit molestie vehicula vitae ut nulla. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Sed urna ante, aliquet ac lobortis et, interdum non nunc. Nunc facilisis, tortor luctus consectetur fermentum, risus augue consectetur nulla, sit amet suscipit nisi nisl in odio. Aenean pretium iaculis mattis. Vestibulum accumsan tortor sem. Phasellus ac rutrum leo. Nunc accumsan diam at eros tempor pretium. In eu imperdiet sem. Fusce accumsan nisl eu vehicula lobortis. Ut in ultrices felis. Proin vulputate lorem sit amet hendrerit fringilla. Donec vitae augue pulvinar, sollicitudin nulla ac, consequat mi. Nulla vehicula quam ex, id malesuada sapien pulvinar non. Curabitur quis tincidunt diam. <span><a href="#title">Back to top.</a></span></p>
+        </section>
+      </div>
+
+      <div class="col-xs-12 col-sm-12 col-md-4">
+        <section>
+          <div class="box" id="sushi">
+            <h3 class="text-center">Sushi</h3>
+          </div>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis luctus ipsum et massa blandit rhoncus. Etiam condimentum euismod lectus, vel imperdiet quam. Praesent lacinia luctus felis. In sed tortor suscipit, dapibus sem eu, suscipit tellus. Nunc sagittis leo vitae risus rhoncus luctus. Nulla pellentesque nibh urna, sed tristique neque sagittis eget. Duis odio est, bibendum ac erat at, fermentum consectetur lorem. Donec ornare fermentum pharetra. Praesent feugiat, ligula ac euismod ultricies, risus ipsum facilisis lacus, in malesuada orci tellus sit amet mauris. Vestibulum feugiat erat vitae erat scelerisque, suscipit consequat eros sodales. Praesent sed dui quis diam condimentum bibendum sed quis sem. Donec vel rhoncus sem, a tempor augue. Nunc a nibh vitae ex posuere sodales quis vitae metus. Quisque tincidunt varius quam, eu egestas erat. Suspendisse vitae ultricies enim. Nulla facilisi. Donec pellentesque turpis id velit molestie vehicula vitae ut nulla. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Sed urna ante, aliquet ac lobortis et, interdum non nunc. Nunc facilisis, tortor luctus consectetur fermentum, risus augue consectetur nulla, sit amet suscipit nisi nisl in odio. Aenean pretium iaculis mattis. Vestibulum accumsan tortor sem. Phasellus ac rutrum leo. Nunc accumsan diam at eros tempor pretium. In eu imperdiet sem. Fusce accumsan nisl eu vehicula lobortis. Ut in ultrices felis. Proin vulputate lorem sit amet hendrerit fringilla. Donec vitae augue pulvinar, sollicitudin nulla ac, consequat mi. Nulla vehicula quam ex, id malesuada sapien pulvinar non. Curabitur quis tincidunt diam. <span><a href="#title">Back to top.</a></span></p>
+        </section>
+      </div>
+    </div>
+  </div>
+  
+
   <!-- jQuery (Bootstrap JS plugins depend on it) -->
-  <script src="js/bootstrap.bundle.min.js"></script>
-  <script src="js/bootstrap.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 </body>
 </html>
